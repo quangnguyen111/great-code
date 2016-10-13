@@ -6,12 +6,12 @@
  <name>great-code</name>
 
 
-  <dependencies>
+  <!-- <dependencies>
  <dependency>
  <groupId>org.junit</groupId>
  <artifactId>org.junit</artifactId>
  <version>4.2</version>
 
 </dependency>
-</dependencies>
+</dependencies> -->
 </project>
