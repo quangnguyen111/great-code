@@ -12,8 +12,6 @@ public class PersonTest {
 
 		Assert.assertEquals(nam.getBMI(), 23.6, 0.1);
 		Assert.assertEquals(trinh.getBMI(), 16.9, 0.1);
-
-
 	}
 
 }
