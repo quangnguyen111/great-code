@@ -16,4 +16,11 @@ public class Person {
 	public double getBMI() {
 		return this.weight / (this.height * this.height);
 	}
+
+	public String getBodyStatus() {
+		if(this.getBMI() >= 22) {
+			return "Overweight";
+		}
+		return "Normal";
+	}
 }
