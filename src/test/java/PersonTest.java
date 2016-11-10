@@ -19,7 +19,7 @@ public class PersonTest {
 		Person nam = new Person("Nam", 1.62, 62);
 		Person trinh = new Person("Ngoc Trinh", 1.7, 49);
 		
-		Assert.assertEquals(nam.getBodyStatus(),"normal");
+		Assert.assertEquals("Overweight", nam.getBodyStatus());
 			
 	}
 	
