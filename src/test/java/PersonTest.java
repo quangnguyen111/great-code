@@ -20,7 +20,7 @@ public class PersonTest {
 		Person trinh = new Person("Ngoc Trinh", 1.7, 49);
 		
 		Assert.assertEquals("Overweight", nam.getBodyStatus());
-			
+		//abc
 	}
 	
 	
