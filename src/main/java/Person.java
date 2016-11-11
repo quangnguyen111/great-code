@@ -1,7 +1,7 @@
 
 public class Person {
 
-	public Person(String string, int i, int j) {
+	public Person(String name, int i, int j) {
 		// TODO Auto-generated constructor stub
 	}
 
