@@ -1,8 +1,13 @@
 
 public class Person {
-
-	public Person(String name, int i, int j) {
-		// TODO Auto-generated constructor stub
+	private String name;
+	private int height;
+	private int weight;
+	
+	public Person(String name, int height, int weight) {
+		this.name = name;
+		this.height = height;
+		this.weight = weight;
 	}
 
 }
