@@ -52,7 +52,7 @@ public class PersonTest {
 		Assert.assertEquals("Underweight", quang.getBodyStatus());
 		Assert.assertEquals("Normal", yoko.getBodyStatus());
 		Assert.assertEquals("Overweight", tokyo.getBodyStatus());
-		Assert.assertEquals("Obese", osaka.getBodyStatus());
+		Assert.assertEquals("Obesedd", osaka.getBodyStatus());
 	}
 	
 	
