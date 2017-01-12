@@ -26,7 +26,7 @@ class Person {
 		} else if(this.getBMI() < 30) {
 			return "Overweight";
 		}
-		return "Obesea";
+		return "Obese";
 	}
 	
 }
