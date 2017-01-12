@@ -4,8 +4,13 @@ import org.junit.Test;
 
  class Person {
 	private double height;
+	private double weight;
+	
 	public void setHeight(double height) {
 		this.height = height;
+	}
+	public void setWeight(double d) {		// TODO Auto-generated method stub
+		this.weight = weight;
 	}
 
 }
