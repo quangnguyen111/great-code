@@ -14,18 +14,13 @@ import org.junit.Test;
 		this.weight = weight;
 	}
 	
-	public void setHeight(double height) {
-		this.height = height;
-	}
-	public void setWeight(double d) {	
-		this.weight = weight;
-	}
 	public double getBMI() {
 		return this.weight / (this.height * this.height);
 	}
 
 }
 
+ 
 
 public class PersonTest {
 	@Test
