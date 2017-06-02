@@ -15,7 +15,7 @@ class Person {
 	}
 
 	public double getBMI() {
-		return 0;
+		return  this.weight / (this.height * this.height);
 	}
 
 }
