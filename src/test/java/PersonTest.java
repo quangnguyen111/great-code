@@ -26,7 +26,7 @@ public class PersonTest {
 		Person sut = new Person(1.8, 72.0);
 		Assert.assertEquals(22.22, sut.getBMI(), 0.1);
 
-		Person quang = new Person(1.62, 62.0)
+		Person quang = new Person(1.62, 62.0);
 		Assert.assertEquals(23.62, quang.getBMI(), 0.01);
 	}
 }
