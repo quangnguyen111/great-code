@@ -18,12 +18,14 @@ class Person {
 		return  this.weight / (this.height * this.height);
 	}
 
+	
 }
 
 public class PersonTest {
 	@Test
 	public void testGetBMI() {
 		Person sut = new Person(1.8, 72.0);
+		System.out.println(sut.getBMI());
 		Assert.assertEquals(22.22, sut.getBMI(), 0.1);
 
 		Person quang = new Person(1.62, 62.0);
