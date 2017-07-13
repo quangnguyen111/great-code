@@ -23,6 +23,9 @@ public class PersonTest {
 		Person quang = new Person("Quang", 1.62, 62);
 		
 		Assert.assertEquals(22.2, quang.getBMI());
-	
+		
+		Person tom = new Person("Tom", 1.92, 80);
+		Assert.assertEquals(20, quang.getBMI());
+		
 	}
 }
